@@ -15,6 +15,8 @@ Based on the data from 2017-2019 shown in the plot below, the price of the yen i
 
 The results of the ARMA and ARIMA models (although they don't appear accurate - see conclusion in Question 3 below) show the price will continue to increase in the next five days, although it may start to plateau around day 5. This potential plateau is evident by the flattening of the curve in the price plot and the drop in the curve on the returns plot. Given all this data (i.e., rising trend and expected short term gains), AND the assumption that the models are correct, I would buy the yen now.
 
+As a side note, ARMA has been deprecated and removed from my Python, so ARIMA with a middle input of "0" was used to mimic an ARMA model.
+
 ![ARIMA Returns Forecast](Modeling_Images/ARIMA_returns_forecast.png)
 ![ARMA Returns Forecast](Modeling_Images/ARMA_returns_forecast.png)
 
